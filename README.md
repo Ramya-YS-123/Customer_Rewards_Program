@@ -30,7 +30,7 @@ Responsive Rewards Table
 
 Displays customer name, points per month, and total points.
 
-Updates dynamically based on selected filter.
+Updates dynamically based on selected filter Or Search.
 
 Reusable Components
 
