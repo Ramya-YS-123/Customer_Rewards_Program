@@ -1,0 +1,55 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f5f6fa;
+  padding: 30px;
+}
+
+.table-container {
+  width: 80%;
+  margin: auto;
+}
+
+/* Header layout */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.header h1 {
+  margin: 0;
+}
+
+/* Filter styling */
+.filter {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.filter select {
+  padding: 6px 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+/* Table styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  table-layout: fixed;
+}
+
+th, td {
+  width: 20%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+
+tr:hover {
+  background-color: #f9f9f9;
+}
